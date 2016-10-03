@@ -18,6 +18,7 @@
   "homepage": "https://github.com/toru-interactive/invoice-template#readme",
   "dependencies": {
     "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
     "gulp-sass": "^2.3.2",
     "gulp-watch": "^4.3.10"
   }
