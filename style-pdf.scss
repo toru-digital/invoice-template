@@ -11,12 +11,10 @@
 		background: #ffffff !important;
 		color: #000000 !important;
 		font-family: Helvetica !important;
-		font-size: 12px !important;
 		margin: 0.6cm 1cm 2.5cm 1cm !important;
 		size: A4 portrait !important;
 		@bottom-center {
 			content: string(companyreg) !important; /* Load contents for company_reg into the page footer */
-			font-size: 7pt !important;
 			text-align: center !important;
 		}
 	}

@@ -12,13 +12,12 @@
 	}
 
 	table.cb-payments thead {
-		background: #000000 !important;
+		background: #3a3a3a !important;
 		border: 0px solid #ffffff !important;
 		color: #ffffff !important;
 	}
 
 	table.cb-payments thead tr th {
-		font-size: 12px !important;
 		text-transform: uppercase !important;
 		font-weight: 400 !important;
 		padding: 4px 6px !important;
@@ -31,7 +30,6 @@
 
 	table.cb-payments tbody tr td {
 		border: 0px solid #ffffff !important;
-		font-size: 12px !important;
 		padding: 4px 6px !important;
 		text-align: left !important;
 	}
@@ -46,7 +44,7 @@
 	}
 
 	table.cb-payments tbody tr.cb-payment.alt {
-		background: #e8e8e8 !important;
+		background: #f7f7f7 !important;
 		color: #000000 !important;
 	}
 
@@ -56,7 +54,6 @@
 	}
 
 	table.cb-payments tfoot tr td {
-		font-size: 12px !important;
 		padding: 4px 6px !important;
 		text-align: right !important;
 		vertical-align: bottom !important;

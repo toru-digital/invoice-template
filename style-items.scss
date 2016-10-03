@@ -8,12 +8,11 @@
 	}
 
 	table.cb-invoice-items thead {
-		background: #000000 !important;
+		background: #3a3a3a !important;
 		color: #ffffff !important;
 	}
 
 	table.cb-invoice-items thead tr th {
-		font-size: 12px !important;
 		border: 0px solid #ffffff !important;
 		text-transform: uppercase !important;
 		font-weight: 400 !important;
@@ -26,7 +25,6 @@
 	}
 
 	table.cb-invoice-items tbody tr td {
-		font-size: 12px !important;
 		border: 0px solid #ffffff !important;
 		padding: 4px 6px !important;
 		text-align: right !important;
@@ -59,7 +57,7 @@
 	}
 
 	table.cb-invoice-items tbody tr.cb-item.alt {
-		background: #e8e8e8 !important;
+		background: #f7f7f7 !important;
 		color: #000000 !important;
 	}
 
@@ -69,7 +67,6 @@
 	}
 
 	table.cb-invoice-items tfoot tr td {
-		font-size: 12px !important;
 		padding: 4px 6px !important;
 		text-align: right !important;
 		vertical-align: bottom !important;

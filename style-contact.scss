@@ -1,19 +1,17 @@
 .cb-page  {
 	.cb-company-logo {
 		display: block !important;
-		float: left !important;
-		margin: 0px 30px 0px 0px !important;
+		margin: 0px 30px 20px 0px !important;
 		position: relative !important;
 		top: 0px !important;
 		left: 0px !important;
-		width : 300px;
+		width : 125px;
+		height : 125px;
 	}
 
-	.cb-company-contact-wrapper {
-		float: left !important;
-		position: relative !important;
-		top: 0px !important;
-		left: 0px !important;
+	address {
+		font-weight : normal!important;
+		font-style : italic!important;
 	}
 
 	h2.cb-company-name {

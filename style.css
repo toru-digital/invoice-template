@@ -1,21 +1,17 @@
 .cb-page {
   background-color: #ffffff !important;
-  background-image: url(strip.png);
-  background-repeat: no-repeat;
-  background-size: 800px auto;
-  background-position: center 30px;
   color: #000000 !important;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
   font-size: 14px !important;
   line-height: 1.5;
   margin: 0px auto !important;
-  padding: 60px 30px 30px 30px !important;
+  padding: 30px 30px 30px 30px !important;
   position: relative !important;
   width: 800px !important;
 }
 
 .cb-page a {
-  color: #336799 !important;
+  color: black !important;
   text-decoration: none !important;
 }
 
@@ -42,6 +38,14 @@
   font-weight: 600 !important;
 }
 
+.cb-page h1 {
+  font-weight: 300 !important;
+}
+
+.cb-page h2 {
+  font-weight: 300 !important;
+}
+
 .cb-page h2.cb-title {
   color: #000000 !important;
   font-size: 20px !important;
@@ -49,7 +53,7 @@
 
 .cb-page h3.cb-title {
   color: #000000 !important;
-  font-size: 15px !important;
+  font-size: 14px !important;
 }
 
 .cb-page .cb-header {
@@ -73,19 +77,17 @@
 
 .cb-page .cb-company-logo {
   display: block !important;
-  float: left !important;
-  margin: 0px 30px 0px 0px !important;
+  margin: 0px 30px 20px 0px !important;
   position: relative !important;
   top: 0px !important;
   left: 0px !important;
-  width: 300px;
+  width: 125px;
+  height: 125px;
 }
 
-.cb-page .cb-company-contact-wrapper {
-  float: left !important;
-  position: relative !important;
-  top: 0px !important;
-  left: 0px !important;
+.cb-page address {
+  font-weight: normal !important;
+  font-style: italic !important;
 }
 
 .cb-page h2.cb-company-name {
@@ -138,12 +140,11 @@
 }
 
 .cb-page table.cb-invoice-items thead {
-  background: #000000 !important;
+  background: #3a3a3a !important;
   color: #ffffff !important;
 }
 
 .cb-page table.cb-invoice-items thead tr th {
-  font-size: 12px !important;
   border: 0px solid #ffffff !important;
   text-transform: uppercase !important;
   font-weight: 400 !important;
@@ -156,7 +157,6 @@
 }
 
 .cb-page table.cb-invoice-items tbody tr td {
-  font-size: 12px !important;
   border: 0px solid #ffffff !important;
   padding: 4px 6px !important;
   text-align: right !important;
@@ -189,7 +189,7 @@
 }
 
 .cb-page table.cb-invoice-items tbody tr.cb-item.alt {
-  background: #e8e8e8 !important;
+  background: #f7f7f7 !important;
   color: #000000 !important;
 }
 
@@ -199,7 +199,6 @@
 }
 
 .cb-page table.cb-invoice-items tfoot tr td {
-  font-size: 12px !important;
   padding: 4px 6px !important;
   text-align: right !important;
   vertical-align: bottom !important;
@@ -230,13 +229,12 @@
 }
 
 .cb-page table.cb-payments thead {
-  background: #000000 !important;
+  background: #3a3a3a !important;
   border: 0px solid #ffffff !important;
   color: #ffffff !important;
 }
 
 .cb-page table.cb-payments thead tr th {
-  font-size: 12px !important;
   text-transform: uppercase !important;
   font-weight: 400 !important;
   padding: 4px 6px !important;
@@ -249,7 +247,6 @@
 
 .cb-page table.cb-payments tbody tr td {
   border: 0px solid #ffffff !important;
-  font-size: 12px !important;
   padding: 4px 6px !important;
   text-align: left !important;
 }
@@ -264,7 +261,7 @@
 }
 
 .cb-page table.cb-payments tbody tr.cb-payment.alt {
-  background: #e8e8e8 !important;
+  background: #f7f7f7 !important;
   color: #000000 !important;
 }
 
@@ -274,7 +271,6 @@
 }
 
 .cb-page table.cb-payments tfoot tr td {
-  font-size: 12px !important;
   padding: 4px 6px !important;
   text-align: right !important;
   vertical-align: bottom !important;
@@ -286,7 +282,7 @@
 }
 
 .cb-page .cb-footer {
-  border-top: 2px dashed #bbbbbb !important;
+  border-top: 1px dashed #bbbbbb !important;
   margin: 30px 0px 0px 0px !important;
   padding: 10px 0px 0px 0px !important;
 }
@@ -305,7 +301,6 @@
 }
 
 .cb-page ul.cb-payment-methods li.cb-method {
-  font-size: 12px !important;
   float: left !important;
   margin: 0px 20px 0px 0px !important;
   width: 240px !important;
@@ -316,8 +311,8 @@
 }
 
 .cb-page .cb-registered-office {
+  font-style: italic;
   clear: both !important;
-  font-size: 11px !important;
   margin: 0px 0px 0px 0px !important;
   padding: 20px 0px 0px 0px !important;
   text-align: center !important;
@@ -335,13 +330,11 @@
     background: #ffffff !important;
     color: #000000 !important;
     font-family: Helvetica !important;
-    font-size: 12px !important;
     margin: 0.6cm 1cm 2.5cm 1cm !important;
     size: A4 portrait !important;
     @bottom-center {
       content: string(companyreg) !important;
       /* Load contents for company_reg into the page footer */
-      font-size: 7pt !important;
       text-align: center !important;
     }
   }
