@@ -1,0 +1,55 @@
+@media print {
+	.cb-page .cb-registered-office {
+		display: none !important;
+	}
+
+	meta[name="companyreg"] {
+		string-set: companyreg attr(content) !important; /* Get the contents from the meta tag and save to string called companyreg */
+	}
+
+	@page {
+		background: #ffffff !important;
+		color: #000000 !important;
+		font-family: Helvetica !important;
+		font-size: 12px !important;
+		margin: 0.6cm 1cm 2.5cm 1cm !important;
+		size: A4 portrait !important;
+		@bottom-center {
+			content: string(companyreg) !important; /* Load contents for company_reg into the page footer */
+			font-size: 7pt !important;
+			text-align: center !important;
+		}
+	}
+
+	html, body {
+		background: #ffffff !important;
+	}
+
+	#save_pdf {
+		display: none !important;
+	}
+
+	.cb-page {
+		background: none !important;
+		margin: 0px !important;
+		padding: 0px !important;
+		page-break-before: always !important;
+		width: 100% !important;
+	}
+
+	.cb-page h2.cb-company-name {
+		margin: 0px 0px 15px 0px !important;
+	}
+
+	.cb-page .cb-company-contact-wrapper {
+		width: 300px !important;
+	}
+
+	.cb-page .cb-footer {
+		float: bottom !important;
+	}
+
+	.cb-page ul.cb-payment-methods li.cb-method {
+		width: 210px !important;
+	}
+}

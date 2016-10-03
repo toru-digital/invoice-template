@@ -1,0 +1,39 @@
+.cb-page {
+	.cb-footer {
+		border-top: 2px dashed #bbbbbb !important;
+		margin: 30px 0px 0px 0px !important;
+		padding: 10px 0px 0px 0px !important;
+	}
+
+	.cb-footer-text {
+		margin: 0px 0px 8px 0px !important;
+	}
+
+	h2.cb-payment-advice {
+		margin: 10px 0px 10px 0px !important;
+	}
+
+	ul.cb-payment-methods {
+		clear: both !important;
+		margin: 20px 0px !important;
+	}
+
+	ul.cb-payment-methods li.cb-method {
+		font-size: 12px !important;
+		float: left !important;
+		margin: 0px 20px 0px 0px !important;
+		width: 240px !important;
+	}
+
+	.cb-payment-methods li.cb-method:last-child {
+		margin: 0px 0px 30px 0px !important;
+	}
+
+	.cb-registered-office {
+		clear: both !important;
+		font-size: 11px !important;
+		margin: 0px 0px 0px 0px !important;
+		padding: 20px 0px 0px 0px !important;
+		text-align: center !important;
+	}
+}

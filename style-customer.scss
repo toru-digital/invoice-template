@@ -1,0 +1,25 @@
+.cb-page {
+	ul.cb-customer-contact {
+		margin: 30px 0px 35px 0px !important;
+	}
+
+	ul.cb-customer-contact li.cb-address {
+		float: left !important;
+	}
+
+	ul.cb-customer-contact li.cb-invoice-ref,
+	ul.cb-customer-contact li.cb-phone,
+	ul.cb-customer-contact li.cb-fax,
+	ul.cb-customer-contact li.cb-email {
+		text-align: right !important;
+	}
+
+	ul.cb-customer-contact li.cb-address address {
+		font-style: normal !important;
+		margin: 0px 0px 30px 0px !important;
+	}
+
+	p.cb-tax label {
+		font-weight: normal !important;
+	}
+}

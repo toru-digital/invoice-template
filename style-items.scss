@@ -1,0 +1,89 @@
+.cb-page {
+	table.cb-invoice-items {
+		background: #ffffff !important;
+		border-collapse: collapse !important;
+		margin: 20px 0px 10px 0px !important;
+		padding: 0px !important;
+		width: 100% !important;
+	}
+
+	table.cb-invoice-items thead {
+		background: #000000 !important;
+		color: #ffffff !important;
+	}
+
+	table.cb-invoice-items thead tr th {
+		font-size: 12px !important;
+		border: 0px solid #ffffff !important;
+		text-transform: uppercase !important;
+		font-weight: 400 !important;
+		padding: 4px 6px !important;
+		text-align: right !important;
+	}
+
+	table.cb-invoice-items thead tr th.cb-desc {
+		text-align: left !important;
+	}
+
+	table.cb-invoice-items tbody tr td {
+		font-size: 12px !important;
+		border: 0px solid #ffffff !important;
+		padding: 4px 6px !important;
+		text-align: right !important;
+	}
+
+	table.cb-invoice-items tbody tr td.cb-desc {
+		text-align: left !important;
+		vertical-align: top !important;
+	}
+
+	table.cb-invoice-items thead tr th.cb-qty {
+		width: 6% !important;
+	}
+
+	table.cb-invoice-items thead tr th.cb-unitprice {
+		width: 12% !important;
+	}
+
+	table.cb-invoice-items thead tr th.cb-net, table.cb-invoice-items thead tr th.cb-vat {
+		width: 10% !important;
+	}
+
+	table.cb-invoice-items thead tr th.cb-amount {
+		width: 12% !important;
+	}
+
+	table.cb-invoice-items tbody tr.cb-item {
+		background: #ffffff !important;
+		color: #000000 !important;
+	}
+
+	table.cb-invoice-items tbody tr.cb-item.alt {
+		background: #e8e8e8 !important;
+		color: #000000 !important;
+	}
+
+	table.cb-invoice-items tfoot tr.cb-total {
+		background: !important;
+		color: !important;
+	}
+
+	table.cb-invoice-items tfoot tr td {
+		font-size: 12px !important;
+		padding: 4px 6px !important;
+		text-align: right !important;
+		vertical-align: bottom !important;
+	}
+
+	table.cb-invoice-items tfoot tr td label {
+		text-transform: uppercase !important;
+	}
+
+	table tfoot tr td.cb-whitespace {
+		padding: 5px !important;
+	}
+
+	table.cb-invoice-items tfoot tr.cb-total td.cb-total {
+		font-weight: 700 !important;
+	}
+}

@@ -1,0 +1,69 @@
+.cb-page {
+	table.cb-payments {
+		background: #ffffff !important;
+		border-collapse: collapse !important;
+		margin: 20px 0px 10px 0px !important;
+		padding: 0px !important;
+		width: 100% !important;
+	}
+
+	h2.cb-payment-history {
+		margin-bottom: -5px !important;
+	}
+
+	table.cb-payments thead {
+		background: #000000 !important;
+		border: 0px solid #ffffff !important;
+		color: #ffffff !important;
+	}
+
+	table.cb-payments thead tr th {
+		font-size: 12px !important;
+		text-transform: uppercase !important;
+		font-weight: 400 !important;
+		padding: 4px 6px !important;
+		text-align: left !important;
+	}
+
+	table.cb-payments thead tr th.cb-amount {
+		text-align: right !important;
+	}
+
+	table.cb-payments tbody tr td {
+		border: 0px solid #ffffff !important;
+		font-size: 12px !important;
+		padding: 4px 6px !important;
+		text-align: left !important;
+	}
+
+	table.cb-payments tbody tr td.cb-amount {
+		text-align: right !important;
+	}
+
+	table.cb-payments tbody tr.cb-payment {
+		background: #ffffff !important;
+		color: #000000 !important;
+	}
+
+	table.cb-payments tbody tr.cb-payment.alt {
+		background: #e8e8e8 !important;
+		color: #000000 !important;
+	}
+
+	table.cb-payments tfoot tr {
+		background: #ffffff !important;
+		color: #000000 !important;
+	}
+
+	table.cb-payments tfoot tr td {
+		font-size: 12px !important;
+		padding: 4px 6px !important;
+		text-align: right !important;
+		vertical-align: bottom !important;
+	}
+
+	table.cb-payments tfoot tr td label {
+		font-weight: 600 !important;
+		text-transform: uppercase !important;
+	}
+}
