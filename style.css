@@ -2,7 +2,7 @@
   background-color: #ffffff !important;
   color: #000000 !important;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
-  font-size: 14px !important;
+  font-size: 13px !important;
   line-height: 1.5;
   margin: 0px auto !important;
   padding: 30px 30px 30px 30px !important;
@@ -186,11 +186,7 @@
 .cb-page table.cb-invoice-items tbody tr.cb-item {
   background: #ffffff !important;
   color: #000000 !important;
-}
-
-.cb-page table.cb-invoice-items tbody tr.cb-item.alt {
-  background: #f7f7f7 !important;
-  color: #000000 !important;
+  border-bottom: 1px solid #3a3a3a;
 }
 
 .cb-page table.cb-invoice-items tfoot tr.cb-total {
@@ -258,11 +254,7 @@
 .cb-page table.cb-payments tbody tr.cb-payment {
   background: #ffffff !important;
   color: #000000 !important;
-}
-
-.cb-page table.cb-payments tbody tr.cb-payment.alt {
-  background: #f7f7f7 !important;
-  color: #000000 !important;
+  border-bottom: 1px solid #3a3a3a;
 }
 
 .cb-page table.cb-payments tfoot tr {
@@ -282,7 +274,7 @@
 }
 
 .cb-page .cb-footer {
-  border-top: 1px dashed #bbbbbb !important;
+  border-top: 1px dashed #3a3a3a !important;
   margin: 30px 0px 0px 0px !important;
   padding: 10px 0px 0px 0px !important;
 }
@@ -312,6 +304,7 @@
 
 .cb-page .cb-registered-office {
   font-style: italic;
+  color: grey;
   clear: both !important;
   margin: 0px 0px 0px 0px !important;
   padding: 20px 0px 0px 0px !important;
@@ -330,6 +323,7 @@
     background: #ffffff !important;
     color: #000000 !important;
     font-family: Helvetica !important;
+    font-size: 13px;
     margin: 0.6cm 1cm 2.5cm 1cm !important;
     size: A4 portrait !important;
     @bottom-center {
@@ -359,6 +353,7 @@
   }
   .cb-page .cb-footer {
     float: bottom !important;
+    font-size: 13px;
   }
   .cb-page ul.cb-payment-methods li.cb-method {
     width: 210px !important;
